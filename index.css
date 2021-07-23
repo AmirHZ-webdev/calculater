@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    width: 500px;
+    max-width:500px;
+    height: auto ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    
+
+}
+.display{
+    width: 89%;
+    height: 100px;
+    color: #fff;
+   padding-left: 15px;
+    font-size: 60px;
+    
+    
+}
+table{
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    border-spacing: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    
+    
+}
+table tr{
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+}
+table th{
+    background-color: coral;
+    border-radius: 50%;
+    cursor: pointer;
+}
+table  td{
+    width: 30px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.td0{
+    border-radius: 35px;
+}
